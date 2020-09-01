@@ -1,0 +1,182 @@
+* { 
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: #828282;
+}
+
+@font-face {
+    font-family: "Riffic";
+    src: url(../Riffic.ttf);
+    src: url(../Riffic/rifficfree-bold-webfont.woff);
+}
+
+@keyframes unexpected{
+    0%, 30%, 55%, 100% {transform: translateY(0);}
+    10% {transform: translateY(-6px);}
+    45% {transform: translateY(-3px);}
+    80% {transform: translateY(-1.5px);}
+}
+
+@keyframes friends{
+    0%, 30%, 55%, 100% {transform: translateY(0);}
+    10% {transform: translateY(-6px);}
+    45% {transform: translateY(-3px);}
+    80% {transform: translateY(-1.5px);}
+}
+
+body {
+    padding-top: 65px;
+    position: relative;
+}
+
+#navbar {
+    background: #FF9D9D;
+}
+
+#navbarBrand{
+    font-family: 'Riffic', sans-serif;
+    color: white;
+    font-size: 26px;
+}
+#unexpected, #friends {
+    font-family: 'Riffic', sans-serif;
+    color: white;
+    font-size: 26px;
+}
+
+#unexpected {
+    animation: unexpected 1.5s linear infinite;
+}
+
+#friends {
+    margin-left: -7px;
+    animation: friends 1.5s linear 0.7s infinite;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,1);
+    border: solid 2px rgba(255,255,255,.5);
+}
+
+.btn-outline-light:hover {
+    color: #FF9D9D;
+}
+
+a.btn.btn-outline-light.waysToHelp:active {
+    color: #FF9D9D;
+}
+
+.waysToHelp {
+    margin-left: 10px;
+}
+
+.waysToHelp:hover {
+    color: #FF9D9D;
+}
+
+#mainImage {
+    padding-bottom: 100px;
+}
+
+section {
+    padding: 58px 0 80px;
+}
+
+h1 {
+    color: #FF9D9D;
+    padding: 10px 0 25px;
+}
+
+h2 {
+    color: #FF9D9D;
+    padding: 10px 0 25px;
+}
+
+figure {
+    max-width: 435px;
+}
+
+#figCaption {
+    color: #FF9D9D;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#projectCol {
+    margin-top: 100px;
+}
+
+#message {
+    color: #828282;
+}
+
+#submit {
+    padding: 8px 50px;
+    background-color: #FF9D9D;
+    border: none;
+}
+
+.small-text {
+    color: #FF9D9D;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer a {
+    color: #FF9D9D;
+}
+
+#heart {
+    color: #FF9D9D;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #mainImage{
+        padding-bottom: 50px;
+    }
+
+    section {
+        padding: 15px 0 20px;
+    }
+
+    img {
+        padding-bottom: 15px;
+    }
+
+    h2{
+        margin-top: -70px;
+    } 
+
+    #figure1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #figure2 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #figure3 {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1029px) {
+    img {
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .waysToHelp {
+        margin: 0;
+    }
+}
