@@ -11,8 +11,13 @@
     }
   
 ?>
-    
-     <img src="img/uf_1.png" class="img-fluid" alt="Responsive image" id="mainImage">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 px-0">
+          <img src="img/uf_1.png" class="img-fluid" alt="Responsive image" id="mainImage">
+        </div><!--col-->
+      </div><!--row-->
+    </div><!--container-->
 
   <section id="ourStory">
       <div class="container-fluid">
