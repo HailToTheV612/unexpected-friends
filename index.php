@@ -22,13 +22,16 @@
   <section id="ourStory">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12">
-              <img src="img/uf_5.png" class="img-fluid float-left mr-4" alt="stray dog lying down">
+          <div class="col-md-6">
+              <img src="img/uf_5.png" class="img-fluid mx-4" alt="stray dog lying down">
+          </div>
+          <div class="col-md-5 mx-auto">
                 <h1>Our Story</h1>
                 <p>Eget mi proin sed libero enim. Sit amet volutpat consequat mauris nunc congue nisi. Mattis ullamcorper velit sed ullamcorper. Tempor nec feugiat nisl pretium fusce id velit ut. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Diam donec adipiscing tristique risus nec. Gravida in fermentum et sollicitudin. Laoreet suspendisse interdum consectetur libero. Pellentesque massa placerat duis ultricies.<br><br>
                 Bibendum neque egestas congue quisque egestas. Enim blandit volutpat maecenas volutpat. Urna porttitor rhoncus dolor purus. Ac turpis egestas sed tempus urna. Pellentesque id nibh tortor id aliquet lectus proin. Sit amet massa vitae tortor condimentum lacinia quis. Adipiscing elit ut aliquam purus sit amet luctus. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Ultrices neque ornare aenean euismod elementum nisi quis eleifend. Quis lectus nulla at volutpat diam ut venenatis. Sed risus ultricies tristique nulla aliquet.<br><br>
                 Tempor nec feugiat nisl pretium fusce id velit ut. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Diam donec adipiscing tristique risus nec. Gravida in fermentum et sollicitudin. Laoreet suspendisse interdum consectetur libero. 
                </p>
+            </div>
         </div><!--column-->
       </div><!--row-->
     </div><!--container-->
@@ -92,15 +95,18 @@
      <section id="waysToHelp">
        <div class="container-fluid">
           <div class="row">
-              <div class="col-md-12">
-                  <img src="img/uf_10.jpg" class="img-fluid float-right ml-4">
+              <div class="col-md-6 mx-auto order-last">
+                  <img src="img/uf_10.jpg" class="img-fluid">
+              </div>
+              <div class="col-md-5 mx-auto">
                   <h1 class="text-center">Ways To Help</h1>
                   <p>Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Lacinia quis vel eros donec ac. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Faucibus turpis in eu mi bibendum. Massa ultricies mi quis hendrerit. Bibendum ut tristique et egestas quis. Nisi vitae suscipit tellus mauris a. Lobortis feugiat vivamus at augue eget. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. Pellentesque elit ullamcorper dignissim cras. Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Tellus id interdum velit laoreet id donec ultrices tincidunt. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Adipiscing diam donec adipiscing tristique risus. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Dictum sit amet justo donec enim diam. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Ultricies tristique nulla aliquet enim.<br><br>
                   Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Risus in hendrerit gravida rutrum quisque. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Ipsum consequat nisl vel pretium lectus quam id. Ut sem viverra aliquet eget sit amet. Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. Semper quis lectus nulla at volutpat diam ut. Risus at ultrices mi tempus. Eu feugiat pretium nibh ipsum consequat nisl. Eu scelerisque felis imperdiet proin fermentum. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Sit amet mauris commodo quis imperdiet massa. Urna porttitor rhoncus dolor purus. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit.</p>
+                </div>
               </div><!--column-->
           </div><!--row-->
           <div class="row">
-              <div class="col-md-5" id="projectCol">
+              <div class="col-md-5 mx-auto" id="projectCol">
                   <h2 class="text-center">Project 1</h2>
                   <p>Tortor id aliquet lectus proin nibh nisl condimentum id. Laoreet id donec ultrices tincidunt arcu non sodales. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Turpis tincidunt id aliquet risus feugiat in ante metus. Vivamus arcu felis bibendum ut tristique. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Mattis vulputate enim nulla aliquet porttitor lacus luctus. Eu augue ut lectus arcu bibendum at. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper.</p>
                   <ol>
@@ -124,7 +130,7 @@
                 </div><!--col-md-6-->
                   </div><!--row-->
               </div><!--col-md-6-->
-              <div class="col-md-5 ml-auto" id="projectCol">
+              <div class="col-md-5 mx-auto" id="projectCol">
                 <h2 class="text-center">Project 2</h2>
                 <p>Tortor id aliquet lectus proin nibh nisl condimentum id. Laoreet id donec ultrices tincidunt arcu non sodales. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Turpis tincidunt id aliquet risus feugiat in ante metus. Vivamus arcu felis bibendum ut tristique. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Mattis vulputate enim nulla aliquet porttitor lacus luctus. Eu augue ut lectus arcu bibendum at. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper.</p>
                 <ol>
